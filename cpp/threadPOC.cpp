@@ -1,5 +1,7 @@
-//clang++ -fsanitize=thread -g threadPOC.cpp -o threadpoc -pthread
-//clang++ -O3 -g threadPOC.cpp -o threadpoc -pthread
+// Use clang++ for a better thread sanitizer
+// clang++ -fsanitize=thread -g threadPOC.cpp -o threadpoc -pthread
+// clang++ -O3 -g threadPOC.cpp -o threadpoc -pthread
+//./threadpoc ints.txt 20
 
 
 #include <iostream>
