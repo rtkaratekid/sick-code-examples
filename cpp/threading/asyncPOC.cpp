@@ -29,7 +29,7 @@ int main(int argc, char *argv[]) {
 	std::queue<std::string> ints;
 	std::ifstream file(argv[1]);
 	
-	int numThreads = std::stoi(argv[2]); 
+	int numThreads = std::atoi(argv[2]); 
 	
 	for(int i = 0; i < numThreads; i++) {
 		std::cout << "Adding thread number " << i << std::endl;

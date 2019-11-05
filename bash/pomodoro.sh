@@ -1,5 +1,5 @@
 #!/bin/bash
-paplay /usr/share/sounds/freedesktop/stereo/complete.oga && zenity --warning --text="Starting a 4 Pomodoro round, you ready?"
+zenity --warning --text="Starting a 4 Pomodoro round, you ready?" && paplay /usr/share/sounds/freedesktop/stereo/complete.oga
 echo "starting pomodoro rounds"
 for i in `seq 1 4`;
 do
