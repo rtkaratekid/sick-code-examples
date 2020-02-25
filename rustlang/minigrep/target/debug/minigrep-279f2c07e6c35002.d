@@ -1,0 +1,1 @@
+/Users/tristanmayfield/sick-code-examples/rustlang/minigrep/target/debug/minigrep-279f2c07e6c35002: /Users/tristanmayfield/sick-code-examples/rustlang/minigrep/src/lib.rs /Users/tristanmayfield/sick-code-examples/rustlang/minigrep/src/main.rs
