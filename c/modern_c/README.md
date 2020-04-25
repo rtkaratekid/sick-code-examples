@@ -1,5 +1,5 @@
 ### From the book, "Modern C" written by Jens Gustedt
-
+###### If I need to take this down, just let me know and it shall be done
 #### Takeaways
 ---
 A) C and C++ are different: don't mix them, and don't mix them up.  
