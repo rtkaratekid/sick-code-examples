@@ -23,3 +23,7 @@ has index n-1.
 2.10) Domain iterations should be coded with a for statement.  
 2.11) The loop variable should be defined in the initial part of a "for".  
 
+3.1) The value 0 represents logical false.
+3.2) Any value different from 0 represents logical true.
+3.4) All scalars have a truth value.
+
