@@ -1,0 +1,5 @@
+#!/bin/bash
+
+git add -u
+git commit -m "I'm done typing these same three lines all the time"
+git push

@@ -7,7 +7,7 @@ B) Don't panic.
 
 ---
 
-1.1) C is an imperitive programming language.  
+1.1) C is an imperative programming language.  
 1.2) C is a compiled programming language.  
 1.3) A correct C program is portable between different platforms.  
 1.4) A C program should compile cleanly without warnings.  
@@ -83,3 +83,30 @@ B) Don't panic.
 5.23) Don't use octal or hexadecimal constants to express negative values.  
 5.24) Use decimal constants to express negative values.  
 5.25) Different literals can have the same value.  
+5.26) The effective value of a decimal floting-point constant may be different from its literal value.  
+5.27) Literals have value, type, and binary expressions.  
+5.28) __I__ is reserved for the imaginary unit.  
+5.29) Unary - and + have the type of their promoted argument.  
+5.30) Avoid narrowing converstions.  
+5.31) Don't use narrow types in arithmetic.  
+5.32) Avoid operations with operands of different signedness.  
+5.33) Use unsigned types whenever you can.  
+5.34) Choose your arithmetic types such that implicit conversions are harmless.  
+5.35) All variables should be initialized.  
+5.36) Use designated initializers for all aggregate data types.  
+5.37) ```{0}``` is a valid initializer for all object types that are not variable length arrays (VLA).  
+5.38) All constants with a particular meaning must be named.  
+5.39) All constants with different meanings must be distinguished.  
+5.40) An object of ```const``` qualified type is read-only.  
+5.41) String literals are read only.  
+5.42) Enumeration constants have either an explicit or positional value.  
+5.43) Enumeration constants are of type ```signed int```.  
+5.44) An integer constant expression doesn't evaluate any object.  
+5.45) Macro names are in all caps.  
+5.46) A compound literal defines an object.  
+5.47) Don't hide a terminating semi-colon inside a macro.  
+5.48) Right-indent continuation markers for macros to the same column.  
+~ Skipping the rest of chapter 5 for now because it's MEGA boring
+
+---
+
